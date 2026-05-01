@@ -12,7 +12,7 @@ The dataset used in this project is the Fitbit Fitness Tracker Data, publicly av
 - Steps
 - Sleep Data
 - Calories Burned
-of participants.
+of Participants.
 
 ## Key Insights
 - Users spent a majority of their time being sedentary.
