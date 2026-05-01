@@ -48,14 +48,17 @@ Line graphs and bar charts were plotted using matplotlib on Python to highlight 
 ![Average calories burned per day](https://github.com/sashimiyuh/Bellabeat-Case-Study/blob/b52fb33cf50012ddf8de632761e3eb25f4104e9f/calories.png)
 
 4) The intensity of activity users perform each day follow a descending order from 'Sedentary' being the most, followed by 'Light', 'Fairly', and 'Very Active' being the least time spent. It was found that even when the total active minutes of activity were calculated (sedentary is excluded), the amount of time users spend being sedentary still far exceeded the total active time spent.
+
+![Activity levels](https://github.com/sashimiyuh/Bellabeat-Case-Study/blob/75888283e81108ab62c3f61633281091f1b9f085/activity%20levels.png)
    
 5) A weak correlation was found between sleep and activity levels, suggesting other factors at play that for users' sedentariness.
-
 
 ## Recommendations
 - Encouraging daily movement through in-app prompts and features.
   - Introduce features such as reminders to stand, stretch, or take short walks to reduce prolonged sedentariness and promote consistent light activity throughout the day. This aims to significantly lower time spent on sedentariness.
 - Elements of gamification to increase user engagement.
   - Develop a gamified interface that allow users to set goals, earn rewards, and compete with friends. This can motivate users to increase their participation in moderate to high-intensity activities (e.g., “Fairly Active” and “Very Active” levels).
+- Introduction of additional lifestyle tracking.
+  - Since sleep shows a weak correlation with sedentary behaviour, it suggests that there could be other factors at play. Additional tracking of metrics such as screen time and stress could be implemented to provide a more holistic perspective.
 - Hosting community sports events to cultivate community engagement.
   - Organise team sports games or fitness challenges to encourage social interaction while promoting regular movement and fostering friendships between users.
