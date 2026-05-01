@@ -22,7 +22,7 @@ The CSV file was loaded into Jupyter Notebook where I carried out data cleaning 
 1) Converted 'ActivityDate' from string format to datetime format.
 2) Created a new column 'DayOfWeek' and reordered it within the dataset to improve readability and facilitate analysis.
 
-🔗Link to script: [Bellabeat Analysis](https://github.com/sashimiyuh/Bellabeat-Case-Study/blob/main/Bellabeat/bellabeat_analysis.ipynb)
+🔗Link to script: [Bellabeat Analysis](https://github.com/sashimiyuh/Bellabeat-Case-Study/blob/012bb83ccf0bdeb97b4e497789056dcdd8051c56/Bellabeat/Bellabeat_%20Case_Study.ipynb)
 
 ## User Data Analysis
 I analysed user activity in the main dataset, which includes teps taken, activity intensity levels, and calories burned.
