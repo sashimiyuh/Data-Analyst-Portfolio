@@ -53,6 +53,8 @@ Line graphs and bar charts were plotted using matplotlib on Python to highlight 
    
 5) A weak correlation was found between sleep and activity levels, suggesting other factors at play that for users' sedentariness.
 
+6) Though users' sedentary behaviour remain high, users do achieve the World Health Organisation's recommended advice of achieving a minimum of 150 minutes of moderate physical activity per week (defined as the sum of VeryActive + FairlyActive minutes for this analysis), averaging 209 minutes per week.
+
 ## Recommendations
 - Encouraging daily movement through in-app prompts and features.
   - Introduce features such as reminders to stand, stretch, or take short walks to reduce prolonged sedentariness and promote consistent light activity throughout the day. This aims to significantly lower time spent on sedentariness.
@@ -60,5 +62,5 @@ Line graphs and bar charts were plotted using matplotlib on Python to highlight 
   - Develop a gamified interface that allow users to set goals, earn rewards, and compete with friends. This can motivate users to increase their participation in moderate to high-intensity activities (e.g., “Fairly Active” and “Very Active” levels).
 - Introduction of additional lifestyle tracking.
   - Since sleep shows a weak correlation with sedentary behaviour, it suggests that there could be other factors at play. Additional tracking of metrics such as screen time and stress could be implemented to provide a more holistic perspective.
-- Hosting community sports events to cultivate community engagement.
-  - Organise team sports games or fitness challenges to encourage social interaction while promoting regular movement and fostering friendships between users.
+- Hosting community-based sports events to cultivate engagement and further physical activity.
+  - Team sports games or fitness challenges can help in fostering interaction while sustaining users' engagement in moderate physical activity through enjoyable and social experiences.
