@@ -41,7 +41,7 @@ Line graphs and bar charts were plotted using matplotlib on Python to highlight 
 
 1) Average steps taken per day drop significantly from Mondays to Tuesdays, with an estimated 22% drop, before rising rapidly again from Tuesdays to Wednesdays, an estimated 26% increase. The fact of it being a weekday or weekend does not seem to affect the average step a user takes per day. When calculated, the average number of steps taken per day sits at 6610, not hitting the daily recommended average steps per day of 7000.
 
-
+![Calories Chart](calories.png)
 2) Average calories burned per day follows a similar pattern. Average calories burned per day drop from Mondays to Tuesdays, with an estimated 5.1% drop, before rising again from Tuesdays to Wednesdays, an estimated 6.35% increase. Similarly, the average calories burned per day does not seem affected by the weekday or weekend.
 
 3) The intensity of activity users perform each day follow a descending order from 'Sedentary' being the most, followed by 'Light', 'Fairly', and 'Very Active' being the least time spent. It was found that even when the total active minutes of activity were calculated (sedentary is excluded), the amount of time users spend being sedentary still far exceeded the total active time spent.
