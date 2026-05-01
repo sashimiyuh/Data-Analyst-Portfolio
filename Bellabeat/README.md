@@ -18,33 +18,41 @@ Python (pandas and matplotlib) for data cleaning, transformation and visualisati
 
 ## Data Cleaning and Transformation
 The CSV file was loaded into Jupyter Notebook where I carried out data cleaning ad transformation prior to further analysis.
-Key actions performed:
+
 1) Converted 'ActivityDate' from string format to datetime format.
 2) Created a new column 'DayOfWeek' and reordered it within the dataset to improve readability and facilitate analysis.
-🔗Link to script: [Bellabeat Analysis](
+
+🔗Link to script: [Bellabeat Analysis](https://github.com/sashimiyuh/Bellabeat-Case-Study/blob/main/Bellabeat/bellabeat_analysis.ipynb)
 
 ## User Data Analysis
+I analysed user activity in the main dataset, which includes teps taken, activity intensity levels, and calories burned.
 
-## Data Visualisation
+1) Average steps taken per day
+2) Average calories burned per day
+3) Average time spent on each intensity of exercise.
+
+The purpose of this analysis was to understand overall user activity patterns and behaviour. In particular, how and why activity levels vary across the days of the week, and whether the weekend would play a part in affecting user behaviour.
+
+Insights gained aim to support Bellabeat's marketing strategy by providing clarity on the existing pool of users using smart devices for fitness and health purposes, while identifying any potential gaps that Bellabeat could help fill. As such, this analysis will aid Bellabeat in making more informed decisions in targeting and engaging future users.
+
+## Data Visualisation and Key Insights
+Line graphs and bar charts were plotted using matplotlib on Python to highlight these key patterns and comparisons:
 
 
+1) Average steps taken per day drop significantly from Mondays to Tuesdays, with an estimated 22% drop, before rising rapidly again from Tuesdays to Wednesdays, an estimated 26% increase. The fact of it being a weekday or weekend does not seem to affect the average step a user takes per day. When calculated, the average number of steps taken per day sits at 6610, not hitting the daily recommended average steps per day of 7000.
 
 
+2) Average calories burned per day follows a similar pattern. Average calories burned per day drop from Mondays to Tuesdays, with an estimated 5.1% drop, before rising again from Tuesdays to Wednesdays, an estimated 6.35% increase. Similarly, the average calories burned per day does not seem affected by the weekday or weekend.
 
+3) The intensity of activity users perform each day follow a descending order from 'Sedentary' being the most, followed by 'Light', 'Fairly', and 'Very Active' being the least time spent. It was found that even when the total active minutes of activity were calculated (sedentary is excluded), the amount of time users spend being sedentary still far exceeded the total active time spent.
+   
+4) A weak correlation was found between sleep and activity levels, suggesting other factors at play that for users' sedentariness.
 
-## Key Insights
-- Users spent a majority of their time being sedentary.
-- Moderate excercise ('Very Active' and 'Fairly Active' minutes spent) stayed consistently low.
-- Minimal difference in activity levels between weekdays and weekends.
-- Weak correlation found between sleep and activity levels, suggesting other factors at play that for users' low activity.
 
 ## Recommendations
 - Encouraging daily movement through in-app prompts and features.
-  - Introduce features such as reminders to stand, stretch, or take short walks to reduce prolonged sedentariness and promote consistent light activity throughout the day.
+  - Introduce features such as reminders to stand, stretch, or take short walks to reduce prolonged sedentariness and promote consistent light activity throughout the day. This aims to significantly lower time spent on sedentariness.
 - Elements of gamification to increase user engagement.
   - Develop a gamified interface that allow users to set goals, earn rewards, and compete with friends. This can motivate users to increase their participation in moderate to high-intensity activities (e.g., “Fairly Active” and “Very Active” levels).
 - Hosting community sports events to cultivate community engagement.
   - Organise team sports games or fitness challenges to encourage social interaction while promoting regular movement and fostering friendships between users.
-
-
-
