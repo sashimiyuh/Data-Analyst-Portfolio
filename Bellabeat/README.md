@@ -41,7 +41,7 @@ Line graphs and bar charts were plotted using matplotlib on Python to highlight 
 
 1) Average steps taken per day drop significantly from Mondays to Tuesdays, with an estimated 22% drop, before rising rapidly again from Tuesdays to Wednesdays, an estimated 26% increase. The fact of it being a weekday or weekend does not seem to affect the average step a user takes per day. When calculated, the average number of steps taken per day sits at 6610, not hitting the daily recommended average steps per day of 7000.
 
-
+![Average steps taken per day](https://github.com/sashimiyuh/Bellabeat-Case-Study/blob/ecdc42ad44e8faaa786e75d20a73b5c61f183fa8/steps.png)
 
 3) Average calories burned per day follows a similar pattern. Average calories burned per day drop from Mondays to Tuesdays, with an estimated 5.1% drop, before rising again from Tuesdays to Wednesdays, an estimated 6.35% increase. Similarly, the average calories burned per day does not seem affected by the weekday or weekend.
    
