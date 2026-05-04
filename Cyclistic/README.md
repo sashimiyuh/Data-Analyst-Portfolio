@@ -24,6 +24,7 @@ Members and casual riders of Cyclistic were compared and analysed against these 
   - Average ride length on weekdays vs. weekends
 - Average number of trips taken per day
 - The peak times of rides taken
+
 The purpose of analysing these specific metrics is to explore the key differences in usage of Cyclistic between members and casual riders, and cultivate new marketing strategies that build on these key differences to increase membership rates.
 ## Data Visualisation and Key Insights
 Line graphs and bar charts were plotted using matplotlib on Python to highlight these key patterns and comparisons:
