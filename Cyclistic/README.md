@@ -35,6 +35,7 @@ Line graphs and bar charts were plotted using matplotlib on Python to highlight 
    - Members on average take more trips than casual riders, despite riding for shorter amounts of time. This indicates that members have a more utilitarian approach when using Cyclistic, taking shorter but more frequent trips every day for commuting, while casual riders rely on Cyclistic for more recreational purposes.
 4. The number of rides taken on average, is higher on weekdays compared to weekends, for both members and casual riders. This reflects that in general, Cyclistic is seen and used by the public for structured weekday routines, and is seen as a reliable mode of transportation by both casual riders and members alike. 
    - Notably, the decrease in members riding on weekends is substantial compared to casual riders, with a 30.3% and 27.3% drop respectively. This is tied with the fact that ride durations are longer on weekends, further reinforcing the fact that Cyclistic's members are using it mainly for daily commute, while casual riders use it more leisurely and/or spontaneously.
+![No. of rides](https://github.com/sashimiyuh/Bellabeat-Case-Study/blob/d4c0fabddca8f5f211108b46e9bb2216dc04a995/Cyclistic/No.%20of%20Rides.png)
 ## Recommendations
 - Offer weekday-exclusive membership passes
   - Currently, Cyclistic offers single and full-day passes for casual riders. However, analysis has shown that casual riders do consistently use Cyclistic on the weekdays, suggesting potential demand for a more flexible membership structure.
